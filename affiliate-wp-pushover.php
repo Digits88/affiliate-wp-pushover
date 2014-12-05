@@ -139,7 +139,7 @@ final class AffiliateWP_Pushover {
 	private function includes() {
 
 		require_once self::$plugin_dir . 'includes/hooks.php';
-
+
 		if( is_admin() ) {
 
 			require_once self::$plugin_dir . 'includes/admin/settings.php';
@@ -166,7 +166,7 @@ final class AffiliateWP_Pushover {
 	public function updater() {
 
 		if( class_exists( 'AffWP_AddOn_Updater' ) ) {
-			$updater = new AffWP_AddOn_Updater( 368, __FILE__, self::$version );
+			$updater = new AffWP_AddOn_Updater( 13199, __FILE__, self::$version );
 		}
 	}
 
