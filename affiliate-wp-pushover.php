@@ -139,7 +139,7 @@ final class AffiliateWP_Pushover {
 	private function includes() {
 
 		require_once self::$plugin_dir . 'includes/hooks.php';
-
+
 		if( is_admin() ) {
 
 			require_once self::$plugin_dir . 'includes/admin/settings.php';
