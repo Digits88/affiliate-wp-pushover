@@ -11,7 +11,7 @@ function affwp_pushover_user_key_output( $affiliate_id, $user_id ) {
 	$current_key = !empty( $current_key ) ? $current_key : '';
 	?>
 	<p>
-		<strong><?php _e( 'Recieve referral notifications via Pushover', 'affiliate-wp-pushover'); ?></strong><br />
+		<strong><?php _e( 'Receive referral notifications via Pushover', 'affiliate-wp-pushover'); ?></strong><br />
 		<input type="text" size="50" name="_affwp_pushover_user_key" placeholder="<?php _e( 'Pushover User Key', 'affiliate-wp-pushover' ); ?>" value="<?php echo $current_key; ?>" />
 	</p>
 	<?php
