@@ -5,7 +5,7 @@
  * Description: Adds Pushover support to AffiliateWP
  * Author: Chris Klosowski
  * Author URI: https://filament-studios.com
- * Version: 1.0.1
+ * Version: 1.0.2
  * Text Domain: affiliate-wp-pushover
  * Domain Path: languages
  *
@@ -59,7 +59,7 @@ final class AffiliateWP_Pushover {
 			self::$instance = new AffiliateWP_Pushover;
 
 			self::$plugin_dir = plugin_dir_path( __FILE__ );
-			self::$version    = '1.0.1';
+			self::$version    = '1.0.2';
 
 			self::$instance->load_textdomain();
 			self::$instance->includes();
